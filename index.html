@@ -43,6 +43,57 @@
             </section>
             <section id="habilidades">
                 <h2>Habilidades</h2>
+                <img src="https://placehold.co/300x200/" alt="Placeholder">
+                <div style="margin: 20px 0;"></div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fH80sofUS7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                
+                <p>Visita mi <a href="https://github.com/jruano-espol" target="_blank">perfil de GitHub</a> para ver más proyectos.</p>
+
+                <ol>
+                    <li>Algoritmos</li>
+                    <li>Desarrollo Web</li>
+                    <li>Inteligencia Artificial</li>
+                </ol>
+
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Comunicación efectiva</li>
+                    <li>Resolución de problemas</li>
+                </ul>
+
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Lenguaje</th>
+                        <th>Nivel</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <td>Python</td>
+                        <td>Avanzado</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>C</td>
+                        <td>Avanzado</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>C++</td>
+                        <td>Intermedio</td>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <td>Odin</td>
+                        <td>Avanzado</td>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <td>HTML/CSS</td>
+                        <td>Ninguno</td>
+                    </tr>
+                </table>
                 <ul>
                     <li>Proficiente en el idioma Inglés.</li>
                     <li>Programación de bajo y alto nivel.</li>
@@ -50,15 +101,85 @@
                     <li>Interfaces de usuario llamativas.</li>
                 </ul>
             </section>
+            <section id="referencias">
+                <h2>Referencias</h2>
+                <article>
+                    <blockquote>
+                        "Antony demostró una gran capacidad para resolver problemas complejos y aportar soluciones innovadoras en nuestro equipo."
+                    </blockquote>
+                    <p>
+                        <strong>María Fernández</strong><br>
+                        Líder de Proyecto, ESPOL Laboratorio CTD<br>
+                        Trabajó con Antony en el desarrollo de un nodo ROS, destacando su compromiso y habilidades técnicas excepcionales.
+                    </p>
+                </article>
+                <article>
+                    <blockquote>
+                        "Su dedicación y pasión por la tecnología hicieron una diferencia significativa en los resultados del proyecto."
+                    </blockquote>
+                    <p>
+                        <strong>Carlos Pérez</strong><br>
+                        Coordinador Académico, ESPOL<br>
+                        Supervisó a Antony en proyectos universitarios, resaltando su iniciativa y capacidad de aprendizaje rápido.
+                    </p>
+                </article>
+                <article>
+                    <blockquote>
+                        "Antony es un profesional confiable, siempre dispuesto a colaborar y aportar ideas valiosas al equipo."
+                    </blockquote>
+                    <p>
+                        <strong>Lucía Gómez</strong><br>
+                        Ingeniera de Software, Proyecto Independiente<br>
+                        Colaboró con Antony en proyectos de desarrollo web, apreciando su responsabilidad y creatividad.
+                    </p>
+                </article>
+            </section>
             <section id="contacto">
                 <h2>Contacto</h2>
                 <p><strong>Profesión:</strong> Computer Science</p>
                 <p><strong>Email:</strong> jruano@espol.edu.ec</p>
                 <p><strong>Teléfono:</strong> +593 99 409 9132</p>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="motivo">Motivo de contacto:</label>
+                    <select id="motivo" name="motivo" required>
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="trabajo">Oferta de trabajo</option>
+                        <option value="otro">Otro</option>
+                    </select>
+
+                    <fieldset>
+                        <legend>Preferencia de contacto:</legend>
+                        <input type="radio" id="email" name="preferencia" value="email" required>
+                        <label for="email">Email</label>
+                        <input type="radio" id="telefono" name="preferencia" value="telefono" required>
+                        <label for="telefono">Teléfono</label>
+                    </fieldset>
+
+                    <label for="intereses">Intereses:</label>
+                    <select id="intereses" name="intereses[]" multiple required>
+                        <option value="programacion">Programación</option>
+                        <option value="diseño">Diseño</option>
+                        <option value="investigacion">Investigación</option>
+                        <option value="otros">Otros</option>
+                    </select>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.6897474957332!2d-79.96772833044397!3d-2.1478887999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13c6e2e3a3e7%3A0x7d3e7c3c7e3c7e3c!2sEscuela%20Superior%20Politécnica%20del%20Litoral!5e0!3m2!1ses-419!2sec!4v1718040000000!5m2!1ses-419!2sec"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
         <footer>
-            <p>&copy; 2024 Antony Ruano</p>
+            <p>&copy; 2025 Antony Ruano</p>
         </footer>
     </body>
 </html>
